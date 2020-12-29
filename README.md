@@ -8,13 +8,11 @@
 
 + Manage users (Add, edit and delete).
 
-+ Manage salary (Add, edit and delete).
-
 + Manage division (Add, edit and delete).
 
 + Manage departments (Add, edit and delete).
 
-+ Make reports (export to Excel and PDF).
++ Make reports (export to PDF).
 
 + Search (with multiple combine fields).
 
