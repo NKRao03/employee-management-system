@@ -47,7 +47,7 @@ class ReportController extends Controller
         ];
         $employees = $this->getExportingData($constraints);
         $pdf = PDF::loadView('system-mgmt/report/pdf', ['employees' => $employees, 'searchingVals' => $constraints]);
-        return $pdf->download('report_from_'. $request['from'].'_to_'.$request['to'].'pdf');
+        return $pdf->download('report_from_'. $request['from'].'_to_'.$request['to'].'.pdf');
         // return view('system-mgmt/report/pdf', ['employees' => $employees, 'searchingVals' => $constraints]);
     }
     
