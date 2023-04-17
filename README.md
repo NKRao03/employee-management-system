@@ -1,3 +1,6 @@
+## Description: 
+Used to manage employee details in a company. The system makes use of single centralized database to maintain records of all the employees. Authentication process is implemented to allow only the authorized members to register and view employee data. All the details like, department, division, city, state, number of employees, employee report etc. are all stored in the database. The technologies used are HTML, CSS, Javascript and PHP. Laravel framework is used to create an MVC based project. 
+
 ## Available functionalities:
 
 + Login and logout, forget password  (Lock account in 5 minutes after 3 failed attempts).
